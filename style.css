@@ -1,10 +1,14 @@
 body, html {
     height: 100%;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 * {
-
+    
 }
 
 p {
@@ -18,9 +22,6 @@ main {
     height: 280px;
     text-align: center;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .name {
@@ -35,11 +36,11 @@ main {
 }
 
 .greeting {
-    width: 360px;
     font-weight: 400;
     font-size: 6em;
 }
 
 .my-name-is {
     font-size: 2em;
+    line-height: 50px;
 }
