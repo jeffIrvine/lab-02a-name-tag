@@ -5,10 +5,11 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: -15px;
 }
 
 * {
-    
+    box-sizing: border-box;
 }
 
 p {
@@ -21,10 +22,14 @@ main {
     width: 370px;
     height: 280px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
-.name {
+#name-button {
+    padding: 10px;
+}
+
+.name-output {
     background-color: white;
     color: black;
     height: 100px;
@@ -35,12 +40,17 @@ main {
     font-size: 4em;
 }
 
+.name-val {
+    font-size: 1em;
+}
+
 .greeting {
     font-weight: 400;
     font-size: 6em;
+    margin: 0px;
 }
 
 .my-name-is {
     font-size: 2em;
-    line-height: 50px;
+    line-height: 30px;
 }
